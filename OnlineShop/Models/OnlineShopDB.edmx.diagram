@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b7ad78c94ee24e70bf02228118ea48e1" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="OnlineShopModel.Comment" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Detail" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Product" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Sale" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.sysdiagram" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.User" Width="1.5" PointX="1.5" PointY="12.5" IsExpanded="true" />
+        <AssociationConnector Association="OnlineShopModel.fk_comment_idProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.fk_comment_idUser" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.fk_detail_idProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.fk_detail_idSale" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.fk_idUser" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="OnlineShopModel.ProductImage" Width="1.5" PointX="3" PointY="6.875" />
+        <AssociationConnector Association="OnlineShopModel.fk_productimage_idProduct" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
